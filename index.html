@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas XI-3 MAN 2 Lebong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selamat Datang di Website Kelas XI-3</h1>
+            <p>MAN 2 Lebong</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#profil">Profil Kelas</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#jadwal">Jadwal Pelajaran</a></li>
+            </ul>
+        </nav>
+        <main>
+        <section id="beranda">
+    <h2>Beranda</h2>
+    <p>Selamat datang di website resmi Kelas XI-3 MAN 2 Lebong. Di sini, Anda akan menemukan informasi terkini tentang kegiatan kelas, prestasi siswa, dan berbagai hal menarik lainnya.</p>
+    <div id="countdown"></div>
+</section>
+
+    
+    <div class="interaction-box">
+    <div class="instagram-box">
+        <div class="instagram-content">
+            <img src="Instagram.svg" alt="Instagram Icon" class="instagram-icon">
+            <div class="instagram-info">
+                <p>Instagram</p>
+                <a href="https://www.instagram.com/" class="view-more-btn">View More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="anonymous-box">
+        <div class="anonymous-content">
+            <img src="paper-plane.png" alt="Paper Plane Icon" class="anonymous-icon">
+            <div class="anonymous-info">
+                <p>Text Anonim</p>
+                <textarea id="anon-text" rows="3" placeholder="Berikan komentar..."></textarea>
+                <button id="send-btn" class="send-btn">Kirim</button>
+            </div>
+        </div>
+        <div id="comment-section"></div>
+    </div>
+</div>
+    <div id="countdown"></div>
+</section>
+            <section id="profil">
+                <h2>Profil Kelas</h2>
+                <p>Kelas XI-3 adalah kelas yang penuh semangat dan kreativitas. Kami memiliki siswa-siswi berbakat yang selalu berusaha untuk menjadi yang terbaik dalam bidang akademik maupun non-akademik.</p>
+                <h3>Denah Tempat Duduk Kelas XI-3</h3>
+                <div class="seating-plan">
+                    <div class="teacher-desk">Wali Kelas:<br>M. Toha, S.Pd</div>
+                    <div class="row">
+                        <div class="seat">Riki - Habib</div>
+                        <div class="seat">Mirza - Bima</div>
+                    </div>
+                    <div class="row">
+                        <div class="seat">Tamam - Ciyo</div>
+                        <div class="seat">Fiona - Zahra</div>
+                    </div>
+                    <div class="row">
+                        <div class="seat">Faza - Pita</div>
+                        <div class="seat">Kirenti - Weni</div>
+                    </div>
+                    <div class="row">
+                        <div class="seat">Yolanda - Sinta</div>
+                        <div class="seat">Nadia - Risma</div>
+                    </div>
+                </div>
+            </section>
+<section id="galeri">
+    <h2>Galeri</h2>
+    <div class="gallery-container">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="foto1.png" alt="Foto 1">
+            </div>
+            <div class="gallery-item">
+                <img src="foto2.png" alt="Foto 2">
+            </div>
+            <div class="gallery-item">
+                <img src="foto3.png" alt="Foto 3">
+            </div>
+            <div class="gallery-item">
+                <img src="foto4.png" alt="Foto 4">
+            </div>
+            <div class="gallery-item">
+                <img src="foto5.png" alt="Foto 5">
+            </div>
+                        <div class="gallery-item">
+                <img src="foto6.png" alt="Foto 6">
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .gallery-container {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .gallery {
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .gallery-item {
+        flex: 0 0 auto;
+        width: 200px;
+        height: auto;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    .gallery::-webkit-scrollbar {
+        display: none;
+    }
+
+    .gallery {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+</style>
+     <section id="jadwal">
+    <h2>Jadwal Pelajaran</h2>
+    <div class="schedule">
+        <h3>Senin</h3>
+        <ul>
+            <li>B.Arab</li>
+            <li>Penjas</li>
+            <li>Matematika</li>
+            <li>Tahfiz</li>
+            <li>Pen.Pancasila</li>
+        </ul>
+        
+        <h3>Selasa</h3>
+        <ul>
+            <li>B.Indonesia</li>
+            <li>Fiqih</li>
+            <li>Geografi</li>
+            <li>Alqur'an Hadits</li>
+            <li>Biologi</li>
+        </ul>
+
+        <h3>Rabu</h3>
+        <ul>
+            <li>Ekonomi</li>
+            <li>Kekhasan Mad</li>
+            <li>B.Inggris</li>
+            <li>Kimia</li>
+            <li>SKI</li>
+        </ul>
+
+        <h3>Kamis</h3>
+        <ul>
+            <li>Matematika</li>
+            <li>Aqidah Ahlak</li>
+            <li>PKWU</li>
+            <li>Seni Budaya</li>
+            <li>B.Indonesia</li>
+        </ul>
+
+        <h3>Jum'at</h3>
+        <ul>
+            <li>Biologi</li>
+            <li>Kekhasan Mad</li>
+            <li>Sejarah</li>
+            <li>Kimia</li>
+            <li>P5P2RA</li>
+        </ul>
+    </div>
+</section>
+<section id="rating">
+    <h2>Please Rate Our Website</h2>
+    <div class="slider-container">
+        <input type="range" min="1" max="5" value="3" class="slider" id="ratingSlider">
+        <div id="rating-image">
+            <img src="3.png" alt="Cukup Bagus" id="current-rating-image">
+        </div>
+    </div>
+    <p id="rating-text">Nilai: Cukup Bagus</p>
+</section>
+
+
+<footer>
+    <p>&copy; 2024 Kelas XI-3 MAN 2 Lebon</p>
+</footer>
+<script>
+    const slider = document.getElementById("ratingSlider");
+    const ratingText = document.getElementById("rating-text");
+    const currentRatingImage = document.getElementById("current-rating-image");
+
+    slider.addEventListener("input", function() {
+        const ratingValue = slider.value;
+        let ratingDescription;
+        let ratingImage;
+
+        switch (ratingValue) {
+            case '1':
+                ratingDescription = "Sangat Buruk";
+                ratingImage = "1.png";
+                break;
+            case '2':
+                ratingDescription = "Buruk";
+                ratingImage = "2.png";
+                break;
+            case '3':
+                ratingDescription = "Sedikit Bagus";
+                ratingImage = "3.png";
+                break;
+            case '4':
+                ratingDescription = "Bagus";
+                ratingImage = "4.png";
+                break;
+            case '5':
+                ratingDescription = "Sangat Bagus";
+                ratingImage = "5.png";
+                break;
+            default:
+                ratingDescription = "Cukup Bagus";
+                ratingImage = "3.png";
+        }
+
+        ratingText.textContent = `Nilai: ${ratingDescription}`;
+        currentRatingImage.src = ratingImage;
+        currentRatingImage.alt = ratingDescription;
+    });
+</script>
+<script>
+    const endDate = new Date("June 15, 2025 00:00:00").getTime();
+
+    const countdown = setInterval(function() {
+        const now = new Date().getTime();
+        const timeLeft = endDate - now;
+
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        document.getElementById("countdown").innerHTML = 
+            `Waktu tersisa hingga akhir tahun pembelajaran: ${days} hari ${hours} jam ${minutes} menit ${seconds} detik`;
+
+        if (timeLeft < 0) {
+            clearInterval(countdown);
+            document.getElementById("countdown").innerHTML = "Tahun pembelajaran telah berakhir!";
+        }
+    }, 1000);
+</script>
+<script src="script.js"></script>
+<footer>
+    <p>Website creator: <a href="https://628382524209?text=Assalamualaikum+Oyy+Bg+Mamatzx" id="creator-link">Muhamad Tamam</a></p>
+    </p>
+</footer>
+</body>
+</html>
+
+</body>
+</html>
